@@ -67,7 +67,10 @@ var api = {
                 enyo.bind(this,(function (transaction) {
                     transaction.executeSql(sql, [],
                     function (transaction, results) {
-                        inCallback(results.rows.item(0));
+						if (results.rows.length !== 0)
+					        inCallback(results.rows.item(0));
+						else
+							inCallback();	
                     },
                     function (transaction, e) { enyo.log("ERROR:", e.message);});
                 }))
