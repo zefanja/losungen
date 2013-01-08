@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+   <title>Install Enyo</title>
+   <meta name="viewport" content="height=device-height" />
+   <script src="/usr/palm/frameworks/mojo/mojo.js" type="text/javascript" x-mojo-version="1" />
+</head>
+<body>
+   <div style="padding: 5px">
+      Achtung: Losungen benötigt EnyoJS, welches nicht auf Ihrem Telefon installiert ist. Sie können EnyoJS via Preware ("Enyo 1.0") oder mittels der HP Karten App installieren. Tippen Sie auf "Installieren", um den App Catalog zu öffnen.
+   </div>
+   <div class="palm-button" onclick="installEnyo()">Installieren</div>
+   <script>
+      window.onload = function() {
+         PalmSystem.stageReady(); // required for page to load
+      };
+      function installEnyo() {
+         window.location = "http://developer.palm.com/appredirect/?packageid=com.palm.app.maps";
+      }
+   </script>
+</body>
+</html>
