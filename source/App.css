@@ -1,7 +1,99 @@
-/*
-	Put anything you reference with "url()" in ../assets/
-	This way, you can minify your application, and just remove the "source" folder for production
-*/
-.nice-padding {
-	padding: 15px;
+/* Losungen CSS */
+
+.losungen-background {
+    background-color: #053c66;
+    color: #f7f7f7;
+    font-size: 16px;
+}
+
+a {
+    color: #f7f7f7;
+}
+
+.losung-caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.losung-text {
+    text-align: justify;
+}
+
+.losung-info {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.losungen-sonntag {
+    text-align: center;
+    font-weight: bold;
+}
+
+.losung-stelle {
+    text-align: right;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.losungen-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.losungen-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.losungen-content {
+    padding: 10px;
+}
+
+.losungen-meta {
+    border-top: 1px solid;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.losungen-icons {
+    max-height: 32px;
+    padding: 0 10px;
+}
+
+.popup-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.popup-info {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.popup-warning {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    text-align: center;
+    color: red;
+}
+
+.popup-version {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    font-size: 0.7em;
+    text-align: center;
+
 }

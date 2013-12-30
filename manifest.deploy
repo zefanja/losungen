@@ -1,0 +1,15 @@
+{
+    "name": "Losungen",
+    "description": "Die Losungen der Herrnhuter Brüdergemeine! Für jeden Tag gibt es zwei Bibelverse - einen aus dem alten und einen aus dem neuen Testament.",
+    "version": "2.2",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/Losungen/assets/losungen128.png",
+        "60": "/Losungen/icon.png"
+    },
+    "developer": {
+        "name": "zefanjas",
+        "url": "http://zefanjas.de"
+    },
+    "default_locale": "de"
+}
